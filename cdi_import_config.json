@@ -4,7 +4,7 @@
   {
     "host":"localhost",
     "user":"root",
-    "password":"ff9ff9",
+    "password":"<your password here>",
     "dbName": "CDI",
     "tableName": "cdi_raw"
   },
