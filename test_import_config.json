@@ -1,0 +1,20 @@
+{
+  "importCsvFilename":"test.csv",
+  "connectionProfile":
+  {
+    "host":"localhost",
+    "user":"root",
+    "password":"ff9ff9",
+    "dbName": "CDI",
+    "tableName": "test_csv"
+  },
+  "tableSchema":
+  {
+    "fields":"test,test2",
+    "fieldDefinitions":
+    {
+      "test":{"type": "varchar(64)"},
+      "test2":{"type": "varchar(32)"}
+    }
+  }
+}

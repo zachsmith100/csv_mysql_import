@@ -1,0 +1,52 @@
+{
+  "importCsvFilename":"U.S._Chronic_Disease_Indicators__CDI_.csv",
+  "connectionProfile":
+  {
+    "host":"localhost",
+    "user":"root",
+    "password":"ff9ff9",
+    "dbName": "CDI",
+    "tableName": "cdi_raw"
+  },
+  "tableSchema":
+  {
+    "fields":"YearStart,YearEnd,LocationAbbr,LocationDesc,DataSource,Topic,Question,Response,DataValueUnit,DataValueTypeID,DataValueType,DataValue,DataValueAlt,DataValueFootnoteSymbol,DatavalueFootnote,LowConfidenceLimit,HighConfidenceLimit,StratificationCategory1,Stratification1,StratificationCategory2,Stratification2,StratificationCategory3,Stratification3,GeoLocation,TopicID,QuestionID,ResponseID,LocationID,StratificationCategoryID1,StratificationID1,StratificationCategoryID2,StratificationID2,StratificationCategoryID3,StratificationID3",
+    "fieldDefinitions":
+    {
+      "YearStart":{"type": "int"},
+      "YearEnd":{"type": "int"},
+      "LocationAbbr":{"type": "varchar(32)"},
+      "LocationDesc":{"type": "varchar(32)"},
+      "DataSource":{"type": "varchar(32)"},
+      "Topic":{"type": "varchar(64)"},
+      "Question":{"type": "varchar(128)"},
+      "Response":{"type": "varchar(128)"},
+      "DataValueUnit":{"type": "varchar(16)"},
+      "DataValueTypeID":{"type": "varchar(32)"},
+      "DataValueType":{"type": "varchar(32)"},
+      "DataValue":{"type": "varchar(128)"},
+      "DataValueAlt":{"type": "varchar(32)"},
+      "DataValueFootnoteSymbol":{"type": "varchar(32)"},
+      "DatavalueFootnote":{"type": "varchar(128)"},
+      "LowConfidenceLimit":{"type": "float"},
+      "HighConfidenceLimit":{"type": "float"},
+      "StratificationCategory1":{"type": "varchar(32)"},
+      "Stratification1":{"type": "varchar(32)"},
+      "StratificationCategory2":{"type": "varchar(32)"},
+      "Stratification2":{"type": "varchar(32)"},
+      "StratificationCategory3":{"type": "varchar(32)"},
+      "Stratification3":{"type": "varchar(32)"},
+      "GeoLocation":{"type": "varchar(64)"},
+      "TopicID":{"type": "varchar(32)"},
+      "QuestionID":{"type": "varchar(32)"},
+      "ResponseID":{"type": "varchar(32)"},
+      "LocationID":{"type": "varchar(32)"},
+      "StratificationCategoryID1":{"type": "varchar(32)"},
+      "StratificationID1":{"type": "varchar(32)"},
+      "StratificationCategoryID2":{"type": "varchar(32)"},
+      "StratificationID2":{"type": "varchar(32)"},
+      "StratificationCategoryID3":{"type": "varchar(32)"},
+      "StratificationID3":{"type": "varchar(32)"}
+    }
+  }
+}
